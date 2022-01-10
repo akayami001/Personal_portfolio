@@ -5,7 +5,7 @@
   "scripts": {
     "start": "run-p watch watch:styles",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch:styles":"sass --watch css/styles.scss css/style.css",
+    "watch:styles":"sass --watch css/style.scss css/style.css",
     "watch": "live-server "
   },
   "devDependencies": {
